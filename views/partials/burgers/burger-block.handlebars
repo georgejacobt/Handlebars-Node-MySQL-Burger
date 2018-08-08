@@ -1,0 +1,19 @@
+<li>
+	{{burger_name}}
+
+	{{!-- <button class="change-sleep" data-id="{{id}}" data-devoured="{{devoured}}"> --}}
+		{{!-- {{#if devoured}}Devoure it!{{else}}Not Devoured!{{/if}} --}}
+        {{!-- {{#if devoured}}Devoure it!{{/if}}
+	</button> --}}
+
+  {{#if devoured}}
+    <button class="eat-it" data-id="{{id}}" data-devoured="{{devoured}}">
+		Devour it!
+	</button>
+  {{/if}}
+  
+
+	<button class="delete-burger" data-id="{{id}}">
+	Update Burger
+	</button>
+</li>
